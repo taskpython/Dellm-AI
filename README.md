@@ -36,7 +36,7 @@ DELLM is an advanced AI system that implements a human-inspired sleep-wake cycle
 - Connection strength adaptation based on usage patterns
 
 ### Audio Processing
-- Real-time speech recognition using RealtimeSTT
+- Real-time speech recognition using Realtime STT
 - Raw audio feature extraction using custom neural network
 - Automatic transcription and text processing
 - Support for both CPU and GPU processing
@@ -155,6 +155,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built on foundational research in continual learning and neural networks
 - Special thanks to all contributors and the open-source community
 
+## Credits
+-RealtimeSTT
+Kolja Beigel
+GitHub-https://github.com/KoljaB/RealtimeSTT
 ---
 
 > DELLM: Learning continuously, just like you do. 🧠✨
