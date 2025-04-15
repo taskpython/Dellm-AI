@@ -94,33 +94,6 @@ The system consists of four main components:
 - Manages long-term knowledge retention
 - Balances new learning with existing knowledge
 
-## ⚙️ Configuration
-
-DELLM can be configured through the `config.json` file:
-```json
-{
-  "rest": {
-    "inactivity_threshold": 300,
-    "consolidation_iterations": 500,
-    "dream_simulation_count": 50
-  },
-  "learning": {
-    "awake_learning_rate": 0.01,
-    "rest_learning_rate": 0.05,
-    "feedback_priority_factor": 3.0
-  },
-  "neural": {
-    "initial_assemblies": 10,
-    "neurons_per_assembly": 100,
-    "excitatory_ratio": 0.8,
-    "growth_threshold": 0.75
-  },
-  "storage": {
-    "experience_buffer_size": 10000,
-    "checkpoint_interval": 3600
-  }
-}
-```
 
 ## 📚 Technical Background
 
